@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	printf("Holberton School");
+	printf("PROGRAMMING IS LIKE AMULTILINGUAL PUZZLE\n");
 	return (0);
 }
