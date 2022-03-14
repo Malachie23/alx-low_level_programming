@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main- puts usuful
+ * main - puts usuful
  * return: 0
  *
  */
