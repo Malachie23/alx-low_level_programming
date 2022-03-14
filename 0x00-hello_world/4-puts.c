@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - puts usuful
  * Return: 0
  *
