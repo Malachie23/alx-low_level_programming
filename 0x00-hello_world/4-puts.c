@@ -4,7 +4,7 @@
  * main- puts usuful
  * return: 0
  *
- * /
+ */
 
 int main(void)
 {
