@@ -2,7 +2,7 @@
 
 /*
  * main - puts usuful
- * return: 0
+ * Return: 0
  *
  */
 
