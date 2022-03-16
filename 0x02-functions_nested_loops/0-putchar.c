@@ -1,13 +1,21 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - ENRTY
- * Return: 0 on success
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
-int main()
-{
-	_putchar('_putchar\n');
-	return (0);
-}
+int main(void)
 
+{
+	char *sh = "_putchar";
+	while (*sh)
+	{
+		_putchar(*sh);
+			sh++;
+	}
+	_putchar('\n');
+
+	return (0);
+
+}
