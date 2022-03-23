@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -9,8 +10,10 @@
 
 int _atoi(char *s)
 {
-	int v;
+	int i;
+	int v = 0;
 
-	v = atoi(s);
+	for (i = 0; s[i] != '\0'; ++i)
+		v = v * 10 + s[i] - '0';
 	return (v);
 }
