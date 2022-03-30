@@ -1,16 +1,15 @@
-#include "main.h"
+#include"main.h"
 
 /**
+ * _strspn - search a string for a set of bytes
  *
- *   * _strspn - search a string for a set of bytes
+ * @s: source string
  *
- *     * @s: source string
+ * @accept: accepted string
  *
- *       * @accept: accepted string
  *
- *         *
- *
- *           * Return: number of bytes in the init segment       */
+ * Return: number of bytes in the init segment
+ */
 
 unsigned int _strspn(char *s, char *accept)
 {
