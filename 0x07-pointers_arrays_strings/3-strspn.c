@@ -10,9 +10,7 @@
  *
  *         *
  *
- *           * Return: number of bytes in the init segment
- *
- *             */
+ *           * Return: number of bytes in the init segment       */
 
 unsigned int _strspn(char *s, char *accept)
 {
